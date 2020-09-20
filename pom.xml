@@ -7,7 +7,7 @@
         <version>2.2.2.RELEASE</version>
     </parent>
     <groupId>com.artsgard</groupId>
-    <artifactId>athenticationtest</artifactId>
+    <artifactId>authenticationtest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <properties>
