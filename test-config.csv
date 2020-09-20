@@ -1,0 +1,6 @@
+#what ever fields are here present
+https://reqres.in/api/register||application/json;charset=UTF-8||email||eve.holt@reqres.in||password||pistol
+https://reqres.in/api/register||application/json;charset=UTF-8||email||wrong@email.in||password||pistol
+https://reqres.in/api/register||application/json;charset=UTF-8||email||eve.holt@reqres.in||password||wrong-password
+https://reqres.in/api/register||application/json;charset=UTF-8||username||eve.holt@reqres.in||password||wrong-password
+https://jigsaw.w3.org/HTTP/Digest/||application/json;charset=UTF-8||username||guest||password||guest
