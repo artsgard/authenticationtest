@@ -27,7 +27,7 @@ public class JobRepositoryConfig extends DefaultBatchConfigurer {
     @Override
     protected JobRepository createJobRepository() throws Exception {
         JobRepositoryFactoryBean factoryBean = new JobRepositoryFactoryBean();
-        factoryBean.setDatabaseType(DatabaseType.MYSQL.getProductName());
+        factoryBean.setDatabaseType(DatabaseType.HSQL.getProductName());
         factoryBean.setTablePrefix("BATCH_");
         factoryBean.setIsolationLevelForCreate("ISOLATION_READ_COMMITTED");
         factoryBean.setDataSource(datasource);
