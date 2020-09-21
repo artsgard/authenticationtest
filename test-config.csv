@@ -1,4 +1,4 @@
-#what ever fields are here present
+#url contentType fieldName1 fieldContent1 fieldName2 fieldContent2
 https://reqres.in/api/register||application/json;charset=UTF-8||email||eve.holt@reqres.in||password||pistol
 https://reqres.in/api/register||application/json;charset=UTF-8||email||wrong@email.in||password||pistol
 https://reqres.in/api/register||application/json;charset=UTF-8||email||eve.holt@reqres.in||password||wrong-password
