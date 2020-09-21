@@ -38,3 +38,142 @@
 2020-09-21 02:32:37,948 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-2 - Shutdown completed.
 2020-09-21 02:32:37,949 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
 2020-09-21 02:32:37,958 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-21 10:51:57,153 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting AthenticationTestApplication on DESKTOP-J0G3D5V with PID 8732 (C:\Users\artsgard\Documents\workspacejava\Socio-Microservices-Demo\authenticationtest\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\Socio-Microservices-Demo\authenticationtest)
+2020-09-21 10:51:57,159 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-09-21 10:51:57,159 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-21 10:51:57,375 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-09-21 10:51:57,391 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 10:51:59,274 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-21 10:51:59,495 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 121ms. Found 1 JPA repository interfaces.
+2020-09-21 10:52:01,071 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-21 10:52:03,086 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-21 10:52:03,893 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-09-21 10:52:04,363 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-09-21 10:52:05,436 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-21 10:52:06,003 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-09-21 10:52:06,063 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-09-21 10:52:06,110 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-09-21 10:52:18,931 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-21 10:52:18,944 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-09-21 10:52:20,908 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-09-21 10:52:21,694 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-21 10:52:22,028 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-21 10:52:22,063 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started AthenticationTestApplication in 27.518 seconds (JVM running for 31.386)
+2020-09-21 10:52:22,066 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-09-21 10:52:23,395 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] launched with the following parameters: [{}]
+2020-09-21 10:52:24,470 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batch-testresult-step, status=COMPLETED, exitStatus=COMPLETED, readCount=5, filterCount=0, writeCount=5 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-09-21 10:52:24,579 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 318ms
+2020-09-21 10:52:25,349 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] launched with the following parameters: [{authentiaction-test-date=1600678344581}]
+2020-09-21 10:52:26,330 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batch-testresult-step]
+2020-09-21 10:52:27,291 ERROR com.artsgard.athenticationtest.externalservice.AuthenticationService [restartedMain] Server IOException: java.io.IOException: Server returned HTTP response code: 400 for URL: https://reqres.in/api/register
+2020-09-21 10:52:27,969 ERROR com.artsgard.athenticationtest.externalservice.AuthenticationService [restartedMain] Server IOException: java.io.IOException: Server returned HTTP response code: 401 for URL: https://jigsaw.w3.org/HTTP/Digest/
+2020-09-21 10:52:28,807 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batch-testresult-step] executed in 2s477ms
+2020-09-21 10:52:29,100 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] completed with the following parameters: [{authentiaction-test-date=1600678344581}] and the following status: [COMPLETED] in 3s600ms
+2020-09-21 10:52:29,100 INFO com.artsgard.athenticationtest.AthenticationTestApplication [restartedMain] Time of "authentiaction-test start
+2020-09-21 10:52:29,115 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-09-21 10:52:29,117 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-2 - Shutdown initiated...
+2020-09-21 10:52:29,132 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-2 - Shutdown completed.
+2020-09-21 10:52:29,132 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-21 10:52:29,145 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-21 10:54:56,579 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting AthenticationTestApplication on DESKTOP-J0G3D5V with PID 14048 (C:\Users\artsgard\Documents\workspacejava\Socio-Microservices-Demo\authenticationtest\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\Socio-Microservices-Demo\authenticationtest)
+2020-09-21 10:54:56,579 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-09-21 10:54:56,587 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-21 10:54:56,649 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-09-21 10:54:56,649 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 10:54:57,250 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-21 10:54:57,337 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 46ms. Found 1 JPA repository interfaces.
+2020-09-21 10:54:58,187 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-21 10:54:59,523 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-21 10:54:59,798 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-09-21 10:55:00,050 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-09-21 10:55:00,485 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-21 10:55:00,644 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-09-21 10:55:00,678 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-09-21 10:55:00,698 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-09-21 10:55:02,139 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-21 10:55:02,150 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-09-21 10:55:02,761 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-09-21 10:55:03,108 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-21 10:55:03,234 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-21 10:55:03,257 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started AthenticationTestApplication in 7.584 seconds (JVM running for 8.185)
+2020-09-21 10:55:03,258 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-09-21 10:55:04,248 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] launched with the following parameters: [{}]
+2020-09-21 10:55:04,615 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batch-testresult-step, status=COMPLETED, exitStatus=COMPLETED, readCount=5, filterCount=0, writeCount=5 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-09-21 10:55:04,832 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 330ms
+2020-09-21 10:55:05,873 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] launched with the following parameters: [{authentiaction-test-date=1600678504835}]
+2020-09-21 10:55:06,506 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batch-testresult-step]
+2020-09-21 10:55:07,470 ERROR com.artsgard.athenticationtest.externalservice.AuthenticationService [restartedMain] Server IOException: java.io.IOException: Server returned HTTP response code: 400 for URL: https://reqres.in/api/register
+2020-09-21 10:55:08,272 ERROR com.artsgard.athenticationtest.externalservice.AuthenticationService [restartedMain] Server IOException: java.io.IOException: Server returned HTTP response code: 401 for URL: https://jigsaw.w3.org/HTTP/Digest/
+2020-09-21 10:55:09,694 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batch-testresult-step] executed in 3s187ms
+2020-09-21 10:55:10,023 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] completed with the following parameters: [{authentiaction-test-date=1600678504835}] and the following status: [COMPLETED] in 4s4ms
+2020-09-21 10:55:10,025 INFO com.artsgard.athenticationtest.AthenticationTestApplication [restartedMain] Time of "authentiaction-test start
+2020-09-21 10:55:10,044 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-09-21 10:55:10,050 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-2 - Shutdown initiated...
+2020-09-21 10:55:10,069 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-2 - Shutdown completed.
+2020-09-21 10:55:10,069 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-21 10:55:10,084 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-21 10:57:44,453 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting AthenticationTestApplication on DESKTOP-J0G3D5V with PID 24524 (C:\Users\artsgard\Documents\workspacejava\Socio-Microservices-Demo\authenticationtest\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\Socio-Microservices-Demo\authenticationtest)
+2020-09-21 10:57:44,458 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-09-21 10:57:44,459 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-21 10:57:44,528 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-09-21 10:57:44,528 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 10:57:45,292 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-21 10:57:45,419 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 114ms. Found 1 JPA repository interfaces.
+2020-09-21 10:57:46,924 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-21 10:57:48,423 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-21 10:57:48,701 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-09-21 10:57:49,092 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-09-21 10:57:49,261 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-21 10:57:49,461 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-09-21 10:57:49,477 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-09-21 10:57:49,499 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-09-21 10:57:50,962 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-21 10:57:50,978 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-09-21 10:57:51,956 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-09-21 10:57:52,214 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-21 10:57:52,512 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-21 10:57:52,538 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started AthenticationTestApplication in 9.031 seconds (JVM running for 19.531)
+2020-09-21 10:57:52,540 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-09-21 10:57:53,523 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] launched with the following parameters: [{}]
+2020-09-21 10:57:54,140 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batch-testresult-step, status=COMPLETED, exitStatus=COMPLETED, readCount=5, filterCount=0, writeCount=5 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-09-21 10:57:54,328 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 445ms
+2020-09-21 10:57:55,354 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] launched with the following parameters: [{authentiaction-test-date=1600678674332}]
+2020-09-21 10:57:56,254 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batch-testresult-step]
+2020-09-21 10:58:30,818 ERROR com.artsgard.athenticationtest.externalservice.AuthenticationService [restartedMain] Server IOException: java.io.IOException: Server returned HTTP response code: 400 for URL: https://reqres.in/api/register
+2020-09-21 10:59:29,372 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting AthenticationTestApplication on DESKTOP-J0G3D5V with PID 16948 (C:\Users\artsgard\Documents\workspacejava\Socio-Microservices-Demo\authenticationtest\target\classes started by artsgard in C:\Users\artsgard\Documents\workspacejava\Socio-Microservices-Demo\authenticationtest)
+2020-09-21 10:59:29,382 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-09-21 10:59:29,382 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-21 10:59:29,513 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\artsgard\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/artsgard/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-09-21 10:59:29,513 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-21 10:59:30,155 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-21 10:59:30,231 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 62ms. Found 1 JPA repository interfaces.
+2020-09-21 10:59:31,086 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-21 10:59:32,413 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-21 10:59:32,668 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: db]
+2020-09-21 10:59:32,972 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.4.9.Final}
+2020-09-21 10:59:33,232 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-21 10:59:33,417 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-09-21 10:59:33,433 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-09-21 10:59:33,464 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-09-21 10:59:34,758 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-21 10:59:34,769 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'db'
+2020-09-21 10:59:35,535 INFO org.springframework.batch.core.repository.support.JobRepositoryFactoryBean [restartedMain] No database type set, using meta data indicating: MYSQL
+2020-09-21 10:59:35,827 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher [restartedMain] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-21 10:59:35,946 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-21 10:59:35,967 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started AthenticationTestApplication in 7.573 seconds (JVM running for 8.949)
+2020-09-21 10:59:35,975 INFO org.springframework.boot.autoconfigure.batch.JobLauncherCommandLineRunner [restartedMain] Running default command line with: []
+2020-09-21 10:59:36,308 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] launched with the following parameters: [{}]
+2020-09-21 10:59:36,467 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=batch-testresult-step, status=COMPLETED, exitStatus=COMPLETED, readCount=5, filterCount=0, writeCount=5 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2020-09-21 10:59:36,721 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 120ms
+2020-09-21 10:59:37,301 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] launched with the following parameters: [{authentiaction-test-date=1600678776721}]
+2020-09-21 10:59:37,934 INFO org.springframework.batch.core.job.SimpleStepHandler [restartedMain] Executing step: [batch-testresult-step]
+2020-09-21 10:59:48,337 ERROR com.artsgard.athenticationtest.externalservice.AuthenticationService [restartedMain] Server IOException: java.io.IOException: Server returned HTTP response code: 400 for URL: https://reqres.in/api/register
+2020-09-21 10:59:58,804 ERROR com.artsgard.athenticationtest.externalservice.AuthenticationService [restartedMain] Server IOException: java.io.IOException: Server returned HTTP response code: 401 for URL: https://jigsaw.w3.org/HTTP/Digest/
+2020-09-21 10:59:59,936 INFO org.springframework.batch.core.step.AbstractStep [restartedMain] Step: [batch-testresult-step] executed in 22s0ms
+2020-09-21 11:00:00,297 INFO org.springframework.batch.core.launch.support.SimpleJobLauncher$1 [restartedMain] Job: [SimpleJob: [name=batch-testresult-job]] completed with the following parameters: [{authentiaction-test-date=1600678776721}] and the following status: [COMPLETED] in 22s888ms
+2020-09-21 11:00:00,299 INFO com.artsgard.athenticationtest.AthenticationTestApplication [restartedMain] Time of "authentiaction-test start
+2020-09-21 11:00:00,319 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'db'
+2020-09-21 11:00:00,322 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-2 - Shutdown initiated...
+2020-09-21 11:00:00,338 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-2 - Shutdown completed.
+2020-09-21 11:00:00,339 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-21 11:00:00,350 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
