@@ -38,7 +38,7 @@ public class TestResultProcessor implements ItemProcessor<TestConfigDTO, TestRes
        result.setStatusCode(rslt.getStatusCode());
        result.setServerResponse(rslt.getServerResponse());
        result.setTestDate(new Date());
-       if (rslt.getServerResponse().equals("SERVER ERROR")) {
+       if (rslt.getServerResponse().equals(AuthenticationService.ServerState.NO_ERROR)) {
             result.setPositive(false);
        } else {
             result.setPositive(true);
